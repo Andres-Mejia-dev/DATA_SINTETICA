@@ -1,0 +1,36 @@
+# Generador de Datos Sintéticos con Streamlit y Faker
+
+Este proyecto es una aplicación web interactiva que permite generar datos sintéticos personalizados utilizando la librería **Faker**. 
+Los datos se pueden generar en varios formatos como nombres, direcciones, correos electrónicos, números de teléfono, y más. 
+La interfaz está construida con **Streamlit**, lo que permite seleccionar fácilmente los campos a generar y la cantidad de datos deseados.
+
+## Características
+
+- **Generación de datos sinteticos**: Puedes generar datos como nombres, direcciones, correos electrónicos, números de teléfono y más, 
+    con formato específico para Colombia (`es_CO`).
+- **Interfaz interactiva**: Usa Streamlit para proporcionar una experiencia fácil de usar con selección de campos y cantidad de filas 
+    a generar.
+- **Exportación a Excel**: Descarga los datos generados en formato Excel (.xlsx) con solo un clic.
+- **Flexible**: Permite seleccionar los campos que deseas generar y ajustar la cantidad de datos desde 1 hasta 500 filas.
+
+## Tecnologías Utilizadas
+
+- **Python**: Lenguaje principal del proyecto.
+- **Streamlit**: Para la creación de la interfaz web interactiva.
+- **Faker**: Para la generación de datos sintéticos.
+- **Pandas**: Para manipular y estructurar los datos en formato tabular.
+- **xlsxwriter**: Para la exportación de datos a archivos Excel.
+
+## Uso
+
+1. Selecciona los campos que deseas generar, como nombre, dirección, correo electrónico, etc.
+2. Elige la cantidad de datos a generar (de 1 a 500 filas).
+3. Haz clic en el botón "Generar Datos" para visualizar y descargar los datos generados en formato Excel.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
+
+---
+
+Esta descripción explica claramente el propósito, características, instalación y uso del proyecto, facilitando la comprensión para otros desarrolladores o usuarios interesados.
